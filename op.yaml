@@ -1,0 +1,40 @@
+# YOLOv5 🚀 by Ultralytics, GPL-3.0 license
+# COCO128 dataset https://www.kaggle.com/ultralytics/coco128 (first 128 images from COCO train2017) by Ultralytics
+# Example usage: python train.py --data coco128.yaml
+# parent
+# ├── yolov5
+# └── datasets
+#     └── coco128  ← downloads here (7 MB)
+
+# "c:\users\bobgreen\documents\pythonscripts\python_envs\yolov5env\scripts\python.exe"  "C:\Users\BobGreen\Documents\PythonScripts\python_envs\yolov5env\Scripts\tensorboard.exe" --logdir runs\train_among
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: C:\vscode\object_detection\imagens  # dataset root dir
+train: C:\vscode\object_detection\imagens  # train images (relative to 'path') 128 images
+val: C:\vscode\object_detection\imagens  # val images (relative to 'path') 128 images
+test:  # test images (optional)
+
+# Classes
+names:
+  0: portal
+  1: abyss
+  2: create
+  3: start
+  4: kitton
+  5: skip
+  6: ok
+  7: gorilla
+  8: portal azul
+  9: brook
+  10: zoro
+  11: bau
+  12: portal vermelho
+  13: eliza
+  14: rayleigh
+  15: start flop
+  16: reshuffle
+  17: seed
+  18: card flop
+  19: receive
+  20: exit
+
